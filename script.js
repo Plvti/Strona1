@@ -1,5 +1,4 @@
-function zegar()
-{
+function zegar () {
     var data = new Date();
     var godzina = data.getHours();
     var minuta = data.getMinutes();
@@ -18,4 +17,6 @@ function zegar()
     var pokazDate = "Dzisiaj jest " + dni[dzienN] + ', ' + dzien + ' ' + miesiace[miesiac] + ' ' + rok + " roku.<br />Godzina " + godzina + ':' + minuta + ':' + sekunda;
     document.getElementById("zegar").innerHTML = pokazDate;
    
-    setTimeout(zegarek, 1000);  
+}
+setInterval(zegar, 1000);
+
