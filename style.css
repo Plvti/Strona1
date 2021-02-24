@@ -153,3 +153,9 @@ body {
 .ttwitter:hover {
   background-color: #2084c2;
 }
+
+a {
+  text-decoration: underline;
+  background-color: none;
+  color: white;
+}
