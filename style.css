@@ -150,7 +150,7 @@ body {
   float: left;
 }
 
-.ttwitter:hover {
+.twitter:hover {
   background-color: #2084c2;
 }
 
@@ -178,7 +178,7 @@ a {
   }
   25% {
     background-color: yellow;
-    left: 90%;
+    left: 80%;
     top: 0px;
   }
   50% {
@@ -188,7 +188,7 @@ a {
   }
   75% {
     background-color: green;
-    left: 90%;
+    left: 80%;
     top: 0px;
   }
   100% {
@@ -196,4 +196,47 @@ a {
     left: 0px;
     top: 0px;
   }
+}
+
+.dropbtn {
+  background-color: #666699;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 160px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-decoration: underline;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #555588;
 }
